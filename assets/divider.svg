@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="6" viewBox="0 0 1000 6" role="img" aria-label="Divider">
+<title>Divider</title>
+<defs><linearGradient id="d" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0" spreadMethod="repeat">
+<stop offset="0" stop-color="#3fb5aa"/><stop offset="0.33" stop-color="#3b82f6"/><stop offset="0.66" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3fb5aa"/></linearGradient>
+<clipPath id="c"><rect width="1000" height="6" rx="3"/></clipPath></defs>
+<style>.m{animation:slide 6s linear infinite}@keyframes slide{from{transform:translateX(-1000px)}to{transform:translateX(0)}}@media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important;transform:none!important}}</style>
+<g clip-path="url(#c)"><rect class="m" x="0" y="0" width="2000" height="6" fill="url(#d)"/></g>
+</svg>
